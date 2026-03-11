@@ -1,0 +1,20 @@
+✅ Ready! Logged in as بـوت الـمـجـلـس#8150
+(node:652) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+DiscordAPIError[0]: 401: Unauthorized
+    at handleErrors [90m(/home/runner/workspace/[39mnode_modules/[4m@discordjs/rest[24m/dist/index.js:762:13[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+    at async SequentialHandler.runRequest [90m(/home/runner/workspace/[39mnode_modules/[4m@discordjs/rest[24m/dist/index.js:1163:23[90m)[39m
+    at async SequentialHandler.queueRequest [90m(/home/runner/workspace/[39mnode_modules/[4m@discordjs/rest[24m/dist/index.js:994:14[90m)[39m
+    at async _REST.request [90m(/home/runner/workspace/[39mnode_modules/[4m@discordjs/rest[24m/dist/index.js:1307:22[90m)[39m
+    at async Client.<anonymous> [90m(/home/runner/workspace/[39mindex.js:82:9[90m)[39m {
+  requestBody: {
+    files: [90mundefined[39m,
+    json: [ [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m ]
+  },
+  rawError: { message: [32m'401: Unauthorized'[39m, code: [33m0[39m },
+  code: [33m0[39m,
+  status: [33m401[39m,
+  method: [32m'PUT'[39m,
+  url: [32m'https://discord.com/api/v10/applications/YOUR_CLIENT_ID_HERE/commands'[39m
+}

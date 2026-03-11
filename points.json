@@ -1,0 +1,19 @@
+/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:140
+    const invalidToken = new DiscordjsError(ErrorCodes.TokenInvalid);
+                         ^
+
+Error [TokenInvalid]: An invalid token was provided.
+    at WebSocketManager.connect [90m(/home/runner/workspace/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketManager.js:140:26[90m)[39m
+    at Client.login [90m(/home/runner/workspace/[39mnode_modules/[4mdiscord.js[24m/src/client/Client.js:229:21[90m)[39m
+    at Object.<anonymous> [90m(/home/runner/workspace/[39mindex.js:130:8[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1706:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1839:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1441:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1263:12)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:328:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)[39m {
+  code: [32m'TokenInvalid'[39m
+}
+
+Node.js v22.22.0
