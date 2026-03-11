@@ -1,3 +1,15 @@
+const { Client, GatewayIntentBits, EmbedBuilder, PermissionsBitField, REST, Routes, SlashCommandBuilder } = require('discord.js');
+const fs = require('fs');
+
+// --- أضف هذه الأسطر الثلاثة هنا بالضبط ---
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => res.send('Bot is Online!'));
+app.listen(process.env.PORT || 3000);
+// ---------------------------------------
+
+// ثم يكمل الكود الخاص بك بشكل طبيعي...
+const TOKEN = 'MTQ4MDMxMTAyMzYyMDg1Mzk2Mg...';
 const { 
     Client, 
     GatewayIntentBits, 
